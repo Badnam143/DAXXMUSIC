@@ -14,11 +14,11 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","badnam_jii")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "Danger_mahi_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "TCZ_PLAYER_BOT")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "ROBLEX")
+BOT_NAME = getenv("BOT_NAME" , "『 𝙏𝘾𝙕 ✘ 𝙈𝙐𝙎𝙄𝘾 』")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "ROBLEX")
+ASSUSERNAME = getenv("ASSUSERNAME" , "『 𝙏𝘾𝙕 ✘ 𝙈𝙐𝙎𝙄𝘾 』")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -46,8 +46,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+IYWUpfEFPXczZjFl")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+IYWUpfEFPXczZjFl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tcz_group")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tcz_group")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
@@ -85,12 +85,12 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/bba1ee916a2d45d26210f.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/7033e3d61fb48e6a07c76.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/bba1ee916a2d45d26210f.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/7033e3d61fb48e6a07c76.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/34094f27cd9c40b5cf0a6.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/7033e3d61fb48e6a07c76.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/34094f27cd9c40b5cf0a6.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/bba1ee916a2d45d26210f.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/bba1ee916a2d45d26210f.jpg"
